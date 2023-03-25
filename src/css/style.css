@@ -20,11 +20,57 @@ body {
 
 }
 
+
 .informacoes .descricao {
     width: 49%;
     font-size: 19px;
     line-height: 30px;
     color: #080808;
+}
+
+.informacoesClassificacao h4{
+
+    font-weight: 500;
+
+}
+
+.informacoesClassificacao h4 span{
+    padding: 0 10px;
+    border-right: 1px solid;
+}
+
+.back .informacoesClassificacao h4 span:first-child {
+    padding-left: 0;
+}
+
+.informacoesClassificacao h4 span:last-child {
+    border-right: none;
+}
+
+.informacoesClassificacao h4 span i {
+    background: rgb(5, 163, 110) ;
+    color: #ffff;
+    padding: 0 8px;
+    display: inline-block;
+    font-style: normal;
+    border-radius: 2px;
+}
+
+.conteudo .informacoes .botoes {
+    position: relative;
+} 
+
+.botoes a {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    background: #ffffff;
+    color: black;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 .menuLateral {
